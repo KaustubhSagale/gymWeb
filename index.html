@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HealthFit Gym</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://rutvalthonge4312.github.io/gymWeb/css/index.css"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="https://rutvalthonge4312.github.io/gymWeb/images/gym-fitness.png"
+              class="img-fluid"
+              alt="gym logo"
+          /></a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link scrollHere"
+                  href="#adv"
+                  onclick="scrollToSection('adv')"
+                  >Our Facilities</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#mobile">Mobile Application</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#price">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#timing">Schedule</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="logInPageForAdmin.html">Admin Page</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="head">
+      <div class="mainBody">
+        <h1>HealthFit Gym!</h1>
+        <h2>A gym for productive training! We are waiting for you</h2>
+        <p>Free Trial Sunday! How can you not try this?</p>
+        <div>
+          <button type="button" class="btn" id="GoToLogInPage">
+            Go to Pricing Section &darr;
+          </button>
+        </div>
+        <div class="imagesInHead">
+          <div>
+            <a href="#"
+              ><div>
+                <img
+                  src="https://rutvalthonge4312.github.io/gymWeb/images/My project (1).png"
+                  class="img-fluid"
+                  alt="..."
+                /></div
+            ></a>
+          </div>
+          <div>
+            <a href="#"
+              ><div>
+                <img
+                  src="https://rutvalthonge4312.github.io/gymWeb/images/My project.png"
+                  class="img-fluid"
+                  alt="..."
+                /></div
+            ></a>
+          </div>
+          <div>
+            <a href="#"
+              ><div>
+                <img
+                  src="https://rutvalthonge4312.github.io/gymWeb/images/My project (2).png"
+                  class="img-fluid"
+                  alt="..."
+                /></div
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="imageBody">
+        <img
+          class="img-fluid"
+          src="https://rutvalthonge4312.github.io/gymWeb/images/OkGymImage.png"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="advantages" id="adv">
+      <div><h1 style="color: white">Our Facilities</h1></div>
+      <div class="properContainer">
+        <div class="smallSize">
+          <div class="slideshow-container">
+            <div class="mySlides goToFade">
+              <img
+                src="https://rutvalthonge4312.github.io/gymWeb/images/gymCardImage.jpg"
+                style="width: 100%"
+              />
+              <div class="text">Caption Text</div>
+            </div>
+
+            <div class="mySlides goToFade">
+              <img
+                src="https://rutvalthonge4312.github.io/gymWeb/images/gymCardImage4.jpg"
+                style="width: 100%"
+              />
+              <div class="text">Caption Two</div>
+            </div>
+
+            <div class="mySlides goToFade">
+              <img
+                src="https://rutvalthonge4312.github.io/gymWeb/images/gymCardImage3.jpg"
+                style="width: 100%"
+              />
+              <div class="text">Caption Three</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+          </div>
+          <br />
+
+          <div style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+        </div>
+        <div class="bigContainer">
+          <div class="bigSize">
+            <div class="cards">
+              <img
+                src="https://rutvalthonge4312.github.io/gymWeb/images/gymCardImage.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="cards">
+              <img
+                class="img-fluid"
+                src="https://rutvalthonge4312.github.io/gymWeb/images/gymCardImage3.jpg"
+                alt=""
+              />
+            </div>
+            <div class="cards">
+              <img
+                src="https://rutvalthonge4312.github.io/gymWeb/images/gymCardImage5.avif"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="cards">
+              <img
+                src="https://rutvalthonge4312.github.io/gymWeb/images/gymCardImage2.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p>
+          *On-duty coach and children's room are open from 7:00 a.m. to 9:00
+          p.m.
+        </p>
+      </div>
+    </div>
+
+    <div class="mobileAppInfo" id="mobile">
+      <div class="actualContainer">
+        <div class="infoforApp">
+          <h1>Mobile Application</h1>
+          <p>
+            Our mobile app has a gym busy indicator, you can choose a less busy
+            time for your workout.
+          </p>
+          <p>
+            Video recording of training for various purposes with an explanation
+            of the technique. Calorie counter and healthy recipes.
+          </p>
+          <p>
+            Also, in the mobile application, you can choose a personal trainer,
+            see the current schedule of group classes, keep a training diary and
+            track your progress.
+          </p>
+          <div class="buttonsInAppForBigger">
+            <div>
+              <button type="button" class="btn">
+                Android
+                <i style="font-size: 24px" class="fa">&#xf17b;</i>
+              </button>
+            </div>
+            <div>
+              <button type="button" class="btn">
+                Apple
+                <i style="font-size: 24px" class="fa">&#xf179;</i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="imageInApp">
+          <img
+            src="https://rutvalthonge4312.github.io/gymWeb/images/mobileAppLogo.webp"
+            alt=""
+            class="img-fluid"
+          />
+          <div class="buttonsInAppForSmaller">
+            <div>
+              <button type="button" class="btn">
+                Android
+                <i style="font-size: 24px" class="fa">&#xf17b;</i>
+              </button>
+            </div>
+            <div>
+              <button type="button" class="btn">
+                Apple
+                <i style="font-size: 24px" class="fa">&#xf179;</i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pricing" id="price">
+      <h1>Pricing</h1>
+      <div class="cardsInPricing" id="cardsPricing">
+        <!--<div class="card">
+          <div class="buttonsDiv">
+            <button type="button" class="btn goToLogInPage">650/Month</button>
+          </div>
+        </div>
+      </div>-->
+      </div>
+      <div class="trainers"></div>
+
+      <div class="groupClasses" id="class">
+        <div class="containerInGroupClassesBiggerScreen">
+          <div class="sections">
+            <div class="imageDivInGroup">
+              <img
+                src="https://rutvalthonge4312.github.io/gymWeb/images/card1.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="infoInGroupClass">
+              <h3>CrossFit</h3>
+              <p>
+                Crossfit is a form of intense physical activity that combines
+                elements of strength training, cardio and gymnastics. At the
+                core of CrossFit is the concept of functional training aimed at
+                developing universal physical abilities such as strength,
+                endurance, speed and flexibility.
+              </p>
+              <div class="buttonInGroupClass">
+                <button type="button" class="btn">Try It!</button>
+              </div>
+            </div>
+          </div>
+          <div class="sections reverseSec">
+            <div class="imageDivInGroup">
+              <img
+                src="https://rutvalthonge4312.github.io/gymWeb/images/card2.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="infoInGroupClass">
+              <h3>TRX</h3>
+              <p>
+                Total Resistance exercise, which means training with the use of
+                special TRX slings. It is a form of exercise that uses your own
+                body weight and gravity to develop strength, endurance,
+                flexibility and coordination. STRX training usually includes
+                stretching, pull-ups, squats and other movements that activate
+                different muscle groups. It can be used as an independent form
+                of training or included in a fitness program.
+              </p>
+              <div class="buttonInGroupClass">
+                <button type="button" class="btn">Try It!</button>
+              </div>
+            </div>
+          </div>
+          <div class="sections">
+            <div class="imageDivInGroup">
+              <img
+                src="https://rutvalthonge4312.github.io/gymWeb/images/card3.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="infoInGroupClass">
+              <h3>Functional training</h3>
+              <p>
+                Functional training is focused on improving the physical
+                abilities necessary for everyday activities. They include
+                movements that collectively use muscles, joints, and core
+                stability to improve strength, stability, flexibility, and
+                coordination.
+              </p>
+              <div class="buttonInGroupClass">
+                <button type="button" class="btn">Try It!</button>
+              </div>
+            </div>
+          </div>
+          <div class="sections reverseSec">
+            <div class="imageDivInGroup">
+              <img
+                src="https://rutvalthonge4312.github.io/gymWeb/images/card4.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="infoInGroupClass">
+              <h3>Stretching</h3>
+              <p>
+                Stretching is the practice of stretching muscles and tissues to
+                improve flexibility, relax the body, and support general health.
+                This includes controlled movements and postures aimed at
+                stretching the muscles and increasing the range of motion in the
+                joints.
+              </p>
+              <div class="buttonInGroupClass">
+                <button type="button" class="btn">Try It!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="smallSize">
+          <div><h1>Our facilities</h1></div>
+          <div class="slideshow-container">
+            <div class="slides goToFade">
+              <img
+                src="https://rutvalthonge4312.github.io/gymWeb/images/card1.jpg"
+                style="width: 100%"
+              />
+              <div class="text textForFacilities">
+                <h3>CrossFit</h3>
+                <p>
+                  Crossfit is a form of intense physical activity that combines
+                  elements of strength training, cardio and gymnastics. At the
+                  core of CrossFit is the concept of functional training aimed
+                  at developing universal physical abilities such as strength,
+                  endurance, speed and flexibility.
+                </p>
+              </div>
+            </div>
+
+            <div class="slides goToFade">
+              <img
+                src="https://rutvalthonge4312.github.io/gymWeb/images/card2.jpg"
+                style="width: 100%"
+              />
+              <div class="text textForFacilities">
+                <h3>TRX</h3>
+                <p>
+                  Total Resistance exercise, which means training with the use
+                  of special TRX slings. It is a form of exercise that uses your
+                  own body weight and gravity to develop strength, endurance,
+                  flexibility and coordination. STRX training usually includes
+                  stretching, pull-ups, squats and other movements that activate
+                  different muscle groups. It can be used as an independent form
+                  of training or included in a fitness program.
+                </p>
+              </div>
+            </div>
+
+            <div class="slides goToFade">
+              <img
+                src="https://rutvalthonge4312.github.io/gymWeb/images/card3.jpg"
+                style="width: 100%"
+              />
+              <div class="text textForFacilities">
+                <h3>Functional training</h3>
+                <p>
+                  Functional training is focused on improving the physical
+                  abilities necessary for everyday activities. They include
+                  movements that collectively use muscles, joints, and core
+                  stability to improve strength, stability, flexibility, and
+                  coordination.
+                </p>
+              </div>
+            </div>
+
+            <div class="slides goToFade">
+              <img
+                src="https://rutvalthonge4312.github.io/gymWeb/images/card4.webp"
+                style="width: 100%"
+              />
+              <div class="text textForFacilities">
+                <h3>Stretching</h3>
+                <p>
+                  Stretching is the practice of stretching muscles and tissues
+                  to improve flexibility, relax the body, and support general
+                  health. This includes controlled movements and postures aimed
+                  at stretching the muscles and increasing the range of motion
+                  in the joints.
+                </p>
+              </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides1(-1)">❮</a>
+            <a class="next" onclick="plusSlides1(1)">❯</a>
+          </div>
+          <br />
+
+          <div style="text-align: center">
+            <span class="dot" onclick="currentSlide1(1)"></span>
+            <span class="dot" onclick="currentSlide1(2)"></span>
+            <span class="dot" onclick="currentSlide1(3)"></span>
+            <span class="dot" onclick="currentSlide1(4)"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="schedule" id="timing">
+      <div class="innerSchedule">
+        <h1>Schedule</h1>
+        <div class="cardsInSchedule">
+          <div class="cardSchedule">
+            <h3>Monday:</h3>
+            <ul>
+              <li>7:00-8:00 - Stretching</li>
+              <li>7:30-8:30 - Wrestling</li>
+              <li>18:00-19:00 - Functional training</li>
+              <li>19:00-20:00 - Tpx</li>
+              <li>20:00-21:00 - CrossFit</li>
+            </ul>
+          </div>
+          <div class="cardSchedule">
+            <h3>Tuesday:</h3>
+            <ul>
+              <li>7:30-8:30 - CrossFit</li>
+              <li>17:30-18:30 Stretching</li>
+              <li>18:00-19:00 Functional training</li>
+              <li>19:30-20:30 - Wrestling</li>
+            </ul>
+          </div>
+          <div class="cardSchedule">
+            <h3>Wednesday:</h3>
+            <ul>
+              <li>7:00-8:00 - Stretching</li>
+              <li>7:30-8:30 - Wrestling</li>
+              <li>18:00-19:00 - Functional training</li>
+              <li>19:00-20:00 - Tpx</li>
+              <li>20:00-21:00 - CrossFit</li>
+            </ul>
+          </div>
+          <div class="cardSchedule">
+            <h3>Thursday:</h3>
+            <ul>
+              <li>7:30-8:30- CrossFit</li>
+              <li>17:30-18:30 Stretching • 18:00-19:00 Functional training</li>
+              <li>19:30-20:30 Wrestling</li>
+            </ul>
+          </div>
+          <div class="cardSchedule">
+            <h3>Friday:</h3>
+            <ul>
+              <li>7:00-8:00 Stretching</li>
+              <li>7:30-8:30 Wrestling</li>
+              <li>18:00-19:00 - Functional training</li>
+              <li>19:00-20:00 - Tpx</li>
+              <li>20:00-21:00 CrossFit</li>
+            </ul>
+          </div>
+          <div class="cardSchedule">
+            <h3>Saturday:</h3>
+            <ul>
+              <li>7:30-8:30- CrossFit</li>
+              <li>17:30-18:30 Stretching</li>
+              <li>18:00-19:00 Functional training</li>
+              <li>19:30-20:30 Wrestling</li>
+            </ul>
+          </div>
+          <div class="cardSchedule">
+            <h3>Sunday:</h3>
+            <ul>
+              <li>7:00-8:00 Stretching</li>
+              <li>14:00-15.00 - Tpx</li>
+              <li>17:00-18:00 - Wrestling</li>
+            </ul>
+          </div>
+
+          <div class="cardSchedule containImage">
+            <h3>The gym is open 24/7</h3>
+            <div class="imageInShedule">
+              <img
+                src="https://rutvalthonge4312.github.io/gymWeb/images/phone-call-icon.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="addressLocation">
+      <div class="writtenAddress">
+        <div class="address">
+          <h3>Office Address</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident,
+            odio.
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident,
+            odio.
+          </p>
+
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident,
+            odio.
+          </p>
+        </div>
+        <div class="mobileNumber">
+          <h3>Phone Number</h3>
+          <p>+91830840990</p>
+        </div>
+        <div class="timing">
+          <h3>Timing</h3>
+          <p>8:30 to 22:30</p>
+        </div>
+      </div>
+      <div class="mapAddress">
+        <a href="#">
+          <img
+            src="https://rutvalthonge4312.github.io/gymWeb/images/mapImage.webp"
+            alt=""
+            class="img-fluid"
+          />
+        </a>
+      </div>
+    </div>
+
+    <footer>
+      <div class="containerInFooter">
+        <div class="topSideInFooter">
+          <ul>
+            <li>Group classes</li>
+            <li>Price schedule</li>
+            <li>The coach</li>
+          </ul>
+          <div class="imageLinkInfooter">
+            <p>+918308409390</p>
+            <div>
+              <a href="#"
+                ><img
+                  src="https://rutvalthonge4312.github.io/gymWeb/images/My project.png"
+                  alt=""
+                  class="img-fluid"
+              /></a>
+              <a href="#"
+                ><img
+                  src="https://rutvalthonge4312.github.io/gymWeb/images/My project (2).png"
+                  alt=""
+                  class="img-fluid"
+              /></a>
+              <a href="#"
+                ><img
+                  src="https://rutvalthonge4312.github.io/gymWeb/images/My project (1).png"
+                  alt=""
+                  class="img-fluid"
+              /></a>
+            </div>
+          </div>
+          <div class="logoInFooter">
+            <img
+              src="https://rutvalthonge4312.github.io/gymWeb/images/gym-fitness.png"
+              alt=""
+              class="img-fluid"
+            />
+            <p>HealthFit Gym</p>
+          </div>
+        </div>
+        <div class="bottomSideLeft">
+          <div class="someotherInfoinFooter">
+            <a href="#">Gym Rules </a>
+            <a href="#">Privacy policy </a>
+            <a href="#">Refund Terms </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://rutvalthonge4312.github.io/gymWeb/javascript/index.js"></script>
+  </body>
+</html>

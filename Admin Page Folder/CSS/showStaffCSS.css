@@ -1,0 +1,42 @@
+body {
+  background-color: rgba(94, 135, 142, 255);
+  background-color: #4f4f4f;
+  display: flex;
+  flex-direction: column;
+
+  color: white;
+  font-family: "Climate Crisis", cursive;
+  font-family: "Quicksand", sans-serif;
+  overflow-x: hidden;
+}
+.navbar a {
+  color: white;
+  text-align: center;
+}
+.navbar img {
+  max-width: 100px;
+  max-height: 100px;
+}
+.mainConatiner {
+  margin: 0rem 3rem;
+
+  margin-top: 5rem;
+  background: transparent;
+}
+
+table th {
+  padding: 2rem;
+  margin: 1rem;
+}
+table tr,
+td {
+  padding: 2rem;
+  margin: 1rem;
+}
+#BackButton {
+  color: white;
+}
+#BackButton:hover {
+  border: 1px solid white;
+  transition: all ease-in-out 0.3s;
+}

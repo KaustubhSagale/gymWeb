@@ -1,0 +1,79 @@
+body {
+  background-color: #4f4f4f;
+
+  font-family: "Climate Crisis", cursive;
+  font-family: "Quicksand", sans-serif;
+  background-image: url(https://rutvalthonge4312.github.io/gymWeb/images/gymCardImage3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+img {
+  filter: drop-shadow(0.5rem 0.5rem 1rem rgb(191, 191, 191));
+}
+.navbar a {
+  color: white;
+  text-align: center;
+}
+.navbar img {
+  max-width: 100px;
+  max-height: 100px;
+}
+.containerInAdmin .innerContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+
+  padding: 2rem;
+}
+.containerInAdmin .innerContainer .btn {
+  background-color: rgba(80, 135, 142, 255);
+  color: white;
+}
+.containerInAdmin .innerContainer .btn:hover {
+  background-color: #84b2b8;
+  color: black;
+}
+.containerInAdmin img {
+  aspect-ratio: 3/2;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 9px 9px 19px 3px rgb(62 62 62);
+
+  background-color: #e2e2e2;
+  padding: 2rem;
+  max-width: 20rem;
+  margin: 1rem;
+}
+@media screen and (max-width: 800px) {
+  .containerInAdmin .innerContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    margin: auto;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 550px) {
+  .containerInAdmin .innerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    margin: 2rem;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}

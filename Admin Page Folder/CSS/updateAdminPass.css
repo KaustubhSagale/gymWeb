@@ -1,0 +1,95 @@
+body {
+  background-color: rgba(94, 135, 142, 255);
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Climate Crisis", cursive;
+  font-family: "Quicksand", sans-serif;
+}
+.navbar a {
+  color: white;
+  text-align: center;
+}
+.navbar img {
+  max-width: 100px;
+  max-height: 100px;
+}
+.formBody {
+  border: 2px solid rgb(215, 212, 212);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 1rem;
+  border-radius: 15px;
+  box-shadow: 4px 6px 20px 0px #86cac056;
+}
+.formBody form {
+  width: 50%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+.formBody form > * {
+  margin: 1rem;
+}
+
+.formBody .imageSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-fluid {
+  max-width: 60%;
+  height: auto;
+}
+.formBody button {
+  width: 50%;
+  height: 2.1rem;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+.formBody button:hover {
+  width: 60%;
+  background-color: rgba(94, 135, 142, 255);
+  box-shadow: 4px 6px 20px 0px #bad6d256;
+  transition: all ease-in-out 0.5s;
+}
+@media screen and (max-width: 800px) {
+  .formBody form {
+    width: 80%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .formBody {
+    flex-direction: column;
+  }
+  .formBody form {
+    width: 100%;
+  }
+}
+
+@media screen and (min-height: 1000px) {
+  .formBody {
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+  .formBody form {
+    width: 100%;
+  }
+}
+#BackButton:hover {
+  border: 1px solid white;
+  transition: all ease-in-out 0.5s;
+}
